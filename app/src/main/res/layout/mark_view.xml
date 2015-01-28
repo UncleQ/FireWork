@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mark_view_layout"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/mark_name"
+        android:text="hello"
+        android:textColor="#8BBDEE"
+        android:layout_height="16dp"
+        android:layout_width="wrap_content"/>
+    <ImageView
+        android:src="@drawable/target"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="32px"
+        android:layout_height="32px"/>
+</LinearLayout>
